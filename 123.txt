@@ -1,0 +1,33 @@
+参考 https://www.cnblogs.com/eedc/p/6168430.html?from=singlemessage
+第一次配置本地git 上传本地仓库的东西
+
+git init
+
+git config --global user.email "535158538@qq.com"
+
+git config --global user.name "sage"
+
+git remote add origin https://gitee.com/pusc/test.git
+
+git pull --rebase origin master
+
+git push -u origin master
+
+输入用户名和密码
+
+ git status
+
+
+第一次  将仓库的东西拿下来 
+用：克隆
+
+git clone "https 连接“
+
+上传：
+git add *
+git commit -m "test5"
+git push
+
+
+同步：
+git pull
